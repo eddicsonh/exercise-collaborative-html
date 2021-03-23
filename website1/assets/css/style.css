@@ -1,3 +1,38 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+/*CSS first_heading */
+
+#body-first-heading {
+    margin: 150px 150px;
+}
+
+#img-first-heading {
+    height: 400px;
+    width: 380px;
+    border-radius: 50%;
+}
+
+#content-first-heading {
+    margin: 50px 50px;
+    padding: 0;
+}
+
+/*CSS tagline */
+
+.bg-container-tagline {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;   
+}
+.text-container-tagline{
+    position: absolute;
+    padding: 10px 0px 10px 0px;
+    top: 125px;
+}
+.text-container-tagline1{
+    margin: 10px 0px;
+
 }
