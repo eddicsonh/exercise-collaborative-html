@@ -1,0 +1,82 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "http://localhost",
+        "editor": {
+            "mode": "standalone",
+            "version": "1.0.61"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "status": "published",
+    "title": "Building a website collaborative",
+    "slug": "collaborative-html-website",
+    "duration": 3,
+    "difficulty": "easy",
+    "preview": "https://github.com/breatheco-de/exercise-collaborative-html-website/blob/master/preview.gif?raw=true",
+    "technologies": [
+        "html",
+        "css",
+        "git",
+        "github"
+    ],
+    "syntax": "html",
+    "description": "Build website among a team of several collaborators",
+    "talents": [],
+    "session": 1016510656926492500,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "website1",
+            "slug": "website1",
+            "translations": {},
+            "language": "html",
+            "entry": "website1/index.html",
+            "title": "website1",
+            "graded": false,
+            "files": [
+                {
+                    "path": "website1/assets",
+                    "name": "assets",
+                    "hidden": true
+                },
+                {
+                    "path": "website1/designs",
+                    "name": "designs",
+                    "hidden": true
+                },
+                {
+                    "path": "website1/index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
+                    "path": "website1/templates",
+                    "name": "templates",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
+}
